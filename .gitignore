@@ -1,0 +1,23 @@
+# API Keys - NUNCA subir esto a GitHub
+.streamlit/secrets.toml
+
+# Entorno virtual
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Streamlit cache
+.streamlit/cache/
