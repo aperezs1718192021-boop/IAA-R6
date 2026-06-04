@@ -186,31 +186,30 @@ h2, h3 { color: #ffa040 !important; font-family: 'Rajdhani', sans-serif !importa
 
 # ── Datos de mapas ───────────────────────────────────────────────────────────
 MAPAS = {
-    "🏆 Ranked": {
-        "Club House": {"en": "Club House", "descripcion": "Cuartel de moteros con sótano, planta baja y dos pisos superiores"},
-        "Banco": {"en": "Bank", "descripcion": "Edificio bancario con bóveda, vestíbulo y zonas de oficinas"},
-        "Estudio de Grabación": {"en": "Studio", "descripcion": "Estudio de música con sala de control, grabación y zonas creativas"},
-        "Faro": {"en": "Lighthouse", "descripcion": "Faro costero con torre central, almacén y edificio de control"},
-        "Consulado": {"en": "Consulate", "descripcion": "Consulado urbano de alta seguridad con múltiples puntos de entrada"},
-        "Kafe Dostoyevski": {"en": "Kafe Dostoyevski", "descripcion": "Café lujoso ruso con cocina, comedor y zona VIP en tres plantas"},
-        "Jardín Japonés": {"en": "Skyscraper", "descripcion": "Rascacielos japonés con jardín en la azotea y diseño abierto"},
-        "Villa": {"en": "Villa", "descripcion": "Mansión italiana con jardines exteriores, piscina y múltiples alas"},
-        "Frontera": {"en": "Border", "descripcion": "Puesto fronterizo con almacenes, oficinas y zona de armamento"},
-        "Vertigo": {"en": "Vertigo", "descripcion": "Edificio en construcción en las alturas con múltiples andamios"},
+    "🏆 Competitivo": {
+        "Banco": {"en": "Bank", "descripcion": "Edificio bancario urbano con bóveda subterránea, vestíbulo principal y múltiples zonas de oficinas en dos plantas"},
+        "Frontera": {"en": "Border", "descripcion": "Puesto fronterizo con almacén de armas, sala de inmigración y pasillos estrechos ideales para el control de zonas"},
+        "Chalet": {"en": "Chalet", "descripcion": "Lujoso chalet de montaña con garaje, cocina y zonas de estar distribuidas en tres plantas con acceso exterior nevado"},
+        "Club": {"en": "Club House", "descripcion": "Cuartel de la banda de moteros con bar, sala de billar, armería y acceso por sótano; tres plantas con rutas verticales"},
+        "Consulado": {"en": "Consulate", "descripcion": "Edificio consular de alta seguridad en entorno urbano, con sala de visas, oficinas y múltiples puntos de entrada exteriores"},
+        "Café Dostoyevsky": {"en": "Kafe Dostoyevski", "descripcion": "Elegante café ruso de tres plantas con cocina industrial, comedor principal, bar y sala VIP; muchas roturas de suelo"},
+        "Guarida": {"en": "Lair", "descripcion": "Base subterránea secreta con laboratorios, sala de servidores y zonas industriales; diseño vertical complejo"},
+        "Laboratorios Nighthaven": {"en": "Nighthaven Labs", "descripcion": "Instalación científica de alta tecnología sobre el agua, con laboratorios, sala de control y zonas acristaladas"},
+        "Rascacielos": {"en": "Skyscraper", "descripcion": "Piso ejecutivo japonés en las alturas con jardín zen en la azotea, sala de reuniones y diseño abierto"},
     },
-    "🎮 Casual": {
-        "Casa": {"en": "House", "descripcion": "Casa residencial pequeña ideal para partidas rápidas y aprendizaje"},
-        "Cafetería": {"en": "Chalet", "descripcion": "Chalet de montaña con garaje, sala y zonas nevadas exteriores"},
-        "Presidio": {"en": "Hereford Base", "descripcion": "Base militar con bunker subterráneo y múltiples rutas de entrada"},
-        "Avión": {"en": "Plane", "descripcion": "Avión comercial con cabina, cola y zona de carga"},
-        "Yate": {"en": "Yacht", "descripcion": "Lujoso yate con camarotes, cubierta y sala de máquinas"},
-        "Parque de Atracciones": {"en": "Theme Park", "descripcion": "Parque temático con atracciones, tiendas y zonas exteriores amplias"},
-        "Costa": {"en": "Coastline", "descripcion": "Resort costero con bar, piscina y habitaciones con vistas al mar"},
-        "Minas de Kanal": {"en": "Kanal", "descripcion": "Canal industrial con dos edificios separados por agua"},
-    },
-    "🌍 Operaciones Especiales": {
-        "Favela": {"en": "Favela", "descripcion": "Barrio densamente poblado de Río con rutas verticales y huecos en paredes"},
-        "Montaña": {"en": "Bartlett University", "descripcion": "Campus universitario con biblioteca, comedor y dormitorios"},
+    "🎮 No Competitivo": {
+        "Avión Presidencial": {"en": "Presidential Plane", "descripcion": "Avión presidencial de lujo con cabina, zona VIP, cola y compartimento de carga; espacios muy estrechos"},
+        "Casa": {"en": "House", "descripcion": "Casa residencial de dos plantas ideal para aprender mecánicas básicas; diseño sencillo con jardín y garaje"},
+        "Torre": {"en": "Tower", "descripcion": "Torre de comunicaciones con varios pisos, sala de control y zonas de acceso por escaleras exteriores"},
+        "Yate": {"en": "Yacht", "descripcion": "Lujoso yate privado con camarotes, sala de máquinas, cubierta superior y zonas de entretenimiento"},
+        "Base de Hereford": {"en": "Hereford Base", "descripcion": "Base militar clásica con bunker subterráneo, hangares y múltiples rutas de entrada en exterior abierto"},
+        "Favela": {"en": "Favela", "descripcion": "Barrio densamente poblado de Río de Janeiro con rutas verticales, huecos en paredes y pasillos laberínticos"},
+        "Fortaleza": {"en": "Fortress", "descripcion": "Fortaleza militar en el desierto con murallas exteriores, patio central y varios edificios interiores conectados"},
+        "Canal": {"en": "Kanal", "descripcion": "Instalación industrial con dos edificios separados por un canal de agua; control del puente central es clave"},
+        "Outback": {"en": "Outback", "descripcion": "Motel australiano en el desierto con piscina exterior, habitaciones, bar y zonas de servicio interconectadas"},
+        "Estadio Alfa / Estadio Bravo": {"en": "Stadium Bravo", "descripcion": "Estadio deportivo con vestuarios, palcos VIP, pasillos interiores y zona de campo con visibilidad extrema"},
+        "Close Quarter": {"en": "Close Quarter", "descripcion": "Mapa de combate extremadamente cerrado diseñado para partidas rápidas e intensas en espacios muy reducidos"},
+        "Emerald Plains": {"en": "Emerald Plains", "descripcion": "Mansión irlandesa con jardines exteriores, biblioteca, sala de billar y múltiples pasillos interiores"},
     }
 }
 
@@ -298,18 +297,32 @@ with st.sidebar:
     st.markdown("### 🗺️ SELECCIONAR MAPA")
     st.markdown('<hr class="orange-divider">', unsafe_allow_html=True)
 
-    # Categorías
+    # Selector de categoría
     categoria_sel = st.selectbox(
         "Categoría",
         list(MAPAS.keys()),
         label_visibility="collapsed"
     )
 
-    # Mapas de la categoría
-    mapas_categoria = list(MAPAS[categoria_sel].keys())
+    # Badge dinámico según categoría
+    if "Competitivo" in categoria_sel:
+        st.markdown("""
+    <div style="background:#1a1200; border:1px solid #ff6b00; border-radius:4px; padding:8px 12px; margin-bottom:12px; font-size:12px; letter-spacing:1px; color:#ffa040;">
+        🏆 POOL COMPETITIVO OFICIAL · Ranked · Pro League
+    </div>
+    """, unsafe_allow_html=True)
+    else:
+        st.markdown("""
+    <div style="background:#0d1a0d; border:1px solid #4a9eff; border-radius:4px; padding:8px 12px; margin-bottom:12px; font-size:12px; letter-spacing:1px; color:#4a9eff;">
+        🎮 MAPAS NO COMPETITIVOS · Casual · Arcade
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Selector de mapa dentro de la categoría
+    mapas_lista = list(MAPAS[categoria_sel].keys())
     mapa_sel = st.selectbox(
         "Mapa",
-        mapas_categoria,
+        mapas_lista,
         label_visibility="collapsed"
     )
 
